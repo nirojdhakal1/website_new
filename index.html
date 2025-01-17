@@ -155,39 +155,72 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
-								<div class="about-list-icon">
-									<ul>
+						<div class="col-sm-offset-1 col-sm-5" style="padding: 0;">
+							<div class="single-about-img" style="text-align: center;">
+								<img src="assets/images/about/profile_image.jpg" alt="profile_image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+								<div class="about-list-icon" style="margin-top: 10px;">
+									<ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 										<li>
-											<a href="https://www.facebook.com/ma.niroj.ho" target="_blank">
+											<a href="https://www.facebook.com/ma.niroj.ho" target="_blank" style="color: #3b5998;">
 												<i class="fa fa-facebook" aria-hidden="true"></i>
 											</a>
-										</li><!-- / li -->
-										
+										</li>
 										<li>
-											<a href="https://www.x.com/ma_niroj_ho" target="_blank">
-												<i  class="fa fa-twitter" aria-hidden="true"></i>
+											<a href="https://www.x.com/ma_niroj_ho" target="_blank" style="color: #00acee;">
+												<i class="fa fa-twitter" aria-hidden="true"></i>
 											</a>
-											
-										</li><!-- / li -->
+										</li>
 										<li>
-											<a href="https://www.linkedin.com/in/nirojdhakal" target="_blank">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
+											<a href="https://www.linkedin.com/in/nirojdhakal" target="_blank" style="color: #0077b5;">
+												<i class="fa fa-linkedin" aria-hidden="true"></i>
 											</a>
-										</li><!-- / li -->
+										</li>
 										<li>
-											<a href="https://www.instagram.com/ma_niroj_ho" target="_blank">
-												<i  class="fa fa-instagram" aria-hidden="true"></i>
+											<a href="https://www.instagram.com/ma_niroj_ho" target="_blank" style="color: #e4405f;">
+												<i class="fa fa-instagram" aria-hidden="true"></i>
 											</a>
-										</li><!-- / li -->
-										
-										
-									</ul><!-- / ul -->
-								</div><!-- /.about-list-icon -->
-
+										</li>
+									</ul>
+								</div>
 							</div>
+						</div>
+						
+						<!-- Responsive Design for Mobile and Laptop -->
+						<style>
+							@media only screen and (max-width: 1200px) and (min-width: 768px) {
+								.col-sm-offset-1, .col-sm-5 {
+									width: 100% !important;
+									padding: 0;
+									text-align: center;
+								}
+								.single-about-img {
+									margin: 0 auto;
+									display: block;
+								}
+								.about-list-icon ul {
+									flex-wrap: wrap;
+									justify-content: center;
+								}
+								.about-list-icon li {
+									margin: 10px;
+								}
+							}
+						
+							@media only screen and (max-width: 768px) {
+								.col-sm-offset-1, .col-sm-5 {
+									width: 100% !important;
+									padding: 0;
+								}
+								.about-list-icon ul {
+									flex-wrap: wrap;
+									justify-content: space-around;
+								}
+								.about-list-icon li {
+									margin: 5px 0;
+								}
+							}
+						</style>
+						
 
 						</div>
 					</div>
