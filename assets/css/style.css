@@ -683,16 +683,24 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .clients-area {
     display: flex;
     align-items: center;
-    height: 250px;
+    height: 500px;
 }
 .clients-area .item {padding: 0 25px;}
 
 .clients .clients-area .owl-carousel .owl-item img {
-    display: block;
+    display: flex;
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius:0;
+    aspect-ratio: 16/11;
 }
+.owl-carousel {
+    transform: scale(4);
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
 
 /*-------------------------------------
         11. Contact
@@ -862,3 +870,4 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     100%  {bottom:7px;}
 }
 /*========================Thank you=================
+
